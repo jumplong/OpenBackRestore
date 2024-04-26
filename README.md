@@ -2,9 +2,9 @@
 ## 🤔 这是什么？
 
 该项目可以轻松备份iStoreOS已安装的软件和配置,当系统恢复出厂设置或重置后，可以一键恢复原来的软件和配置。<br>
-该项目Fork自悟空大佬，优先使用其源码：https://github.com/wukongdaily/OpenBackRestore
-本人RAX3000M运行报错：tar: /overlay: Cannot stat: No such file or directory
-备份脚本文件backup.run中，“/overlay”修改为“/rom/overlay”，就能正常备份
+该项目Fork自悟空大佬，优先使用其源码：https://github.com/wukongdaily/OpenBackRestore <br>
+本人RAX3000M运行报错：tar: /overlay: Cannot stat: No such file or directory <br>
+备份脚本文件backup.run中，“/overlay”修改为“/rom/overlay”，就能正常备份 <br>
 如遇类似报错，可在后台“系统-挂载点”页面，或者用命令行“df -h”，查看overlay的实际挂载路径，替换即可
 
 ## 🚀 方法一 命令行方式
