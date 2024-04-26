@@ -24,11 +24,11 @@
 
 ### 1. 生成备份`/tmp/upload/backup.tar.gz`
 ```bash
-wget -O backup.run https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/backup.run && sh backup.run
+wget -O backup.run https://raw.githubusercontent.com/jumplong/OpenBackRestore/master/backup/backup.run && sh backup.run
 ```
 > 备份仓库
 ```bash 
-wget -O backup.run https://mirror.ghproxy.com/https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/backup.run && sh backup.run
+wget -O backup.run https://mirror.ghproxy.com/https://raw.githubusercontent.com/jumplong/OpenBackRestore/master/backup/backup.run && sh backup.run
 ```
 > 每次备份都是完整的,可以经常备份,比如每月备份一次
 ### 🤔 如何自定义备份的路径？方法如下
@@ -36,17 +36,17 @@ https://github.com/wukongdaily/OpenBackRestore/wiki
 
 ### 2. 恢复备份 
 
-**使用前提** 将备份档案提前上传到 `/tmp/upload/` 目录,如图<br><br>![huifu](https://github.com/wukongdaily/OpenBackRestore/assets/143675923/cd111f10-e6aa-4011-a046-b3004f77c7eb)
+**使用前提** 将备份档案提前上传到 `/tmp/upload/` 目录,如图<br><br>![huifu](https://github.com/jumplong/OpenBackRestore/assets/143675923/cd111f10-e6aa-4011-a046-b3004f77c7eb)
 
 > 确定备份文件已经上传了 再执行如下命令即可恢复,恢复完成后会自动重启
 ### ❤️恢复命令如下
 
 ```bash
-wget -O restore.run https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/restore.run && sh restore.run
+wget -O restore.run https://raw.githubusercontent.com/jumplong/OpenBackRestore/master/backup/restore.run && sh restore.run
 ```
 > 备份仓库
 ```bash 
-wget -O restore.run https://mirror.ghproxy.com/https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/restore.run && sh restore.run
+wget -O restore.run https://mirror.ghproxy.com/https://raw.githubusercontent.com/jumplong/OpenBackRestore/master/backup/restore.run && sh restore.run
 ```
 
 
@@ -55,7 +55,7 @@ wget -O restore.run https://mirror.ghproxy.com/https://raw.githubusercontent.com
 > 1、在release页面下载backup.run或restore.run<br>
 https://github.com/wukongdaily/OpenBackRestore/releases/latest <br>
 > 2、打开iStore应用商店,点击手动安装,将run文件拖拽上去即可执行。<br>
-![image](https://github.com/wukongdaily/OpenBackRestore/assets/143675923/54fdc034-ed4f-4f81-8aa7-0de556e0c3e2)
+![image](https://github.com/jumplong/OpenBackRestore/assets/143675923/54fdc034-ed4f-4f81-8aa7-0de556e0c3e2)
 
 # 💰打赏作者💰
 <img src="https://github.com/wukongdaily/tvhelper-docker/assets/143675923/1f92c5ba-1b6b-4967-a1ab-20697159badc" width="30%" />
